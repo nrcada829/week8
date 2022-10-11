@@ -1,10 +1,49 @@
----
-title: 瑜珈空間
-layout: ./app/layout.ejs
-engine: ejs
-current: yogaSpace
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    瑜珈空間
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-5 py-lg-4">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/DOYOGA-logo.png" alt="logo" width="96" height="31">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-success"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-info text-center">
+          <a class="nav-link px-3" href="course.html">課程介紹</a>
+          <a class="nav-link px-3" href="yogaSpace.html">瑜珈空間</a>
+          <a class="nav-link px-3" href="curriculum.html">當月課表</a>
+          <a class="nav-link d-lg-none" href="reserve.html">立即預約</a>
+          <a class="nav-link d-lg-none" href="contactUs.html">聯絡我們</a>
+        </div>
+      </div>
+      <div class="d-none d-lg-flex">
+        <a href="reserve.html" class="btn btn-outline-success rounded-pill me-3">立即預約</a>
+        <a href="contactUs.html" class="btn btn-outline-success rounded-pill">聯絡我們</a>
+      </div>
+    </div>
+  </nav>
+
+
+  
 <main>
     <section class="pt-9 pt-md-11 pb-8 pb-md-0">
         <div class="container">
@@ -168,3 +207,66 @@ current: yogaSpace
         </div>
     </section>
 </main>
+
+    <footer class="footer bg-success">
+      <div class="border-bottom border-white">
+        <div class="container py-5 py-md-7">
+          <div class="row d-lg-flex justify-lg-content-between align-items-center">
+            <div class="col-lg-8">
+              <h2 class="footer-subTitle text-white mb-2 mb-lg-0">現在訂閱，獲得課程優惠碼！</h2>
+            </div>
+            <div class="col-lg-4">
+              <div class="input-group">
+                <input type="text" class="form-control fs-5 text-success px-3 py-2" placeholder="輸入您的電子信箱"
+                  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text bg-primary border-0 text-white px-3 py-2" id="basic-addon2">訂閱</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5 pb-7">
+        <div class="d-flex justify-content-between mb-2">
+          <a href="index.html">
+            <img src="./assets/images/footerLogo.png" alt="footerLogo" width="96" height="31">
+          </a>
+          <div class="d-flex">
+            <a href="#">
+              <img src="./assets/images/icon-fb.svg" alt="icon-fb" width="24">
+            </a>
+            <a href="#" class="px-2">
+              <img src="./assets/images/icon-ig.svg" alt="icon-ig" width="24">
+            </a>
+            <a href="#">
+              <img src="./assets/images/icon-line.svg" alt="icon-line" width="24">
+            </a>
+          </div>
+        </div>
+        <ul class="list-unstyled position-relative mb-0">
+          <li class="mb-2"><a href="course.html">課程介紹</a></li>
+          <li class="mb-2"><a href="yogaSpace.html">瑜珈空間</a></li>
+          <li class="mb-2"><a href="curriculum.html">當月課表</a></li>
+          <li>
+            <p class="text-white mb-0 position-md-absolute bottom-0 start-50">© 2021. All Rights Reserved.</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="position-fixed d-none d-lg-block top-25 end-0 z-index-1030 me-3">
+      <a href="#" class="d-block text-success mb-2">
+        <i class="fab fa-facebook fz-xl"></i>
+      </a>
+      <a href="#" class="d-block text-success mb-2">
+        <i class="fab fa-instagram fz-xl"></i>
+      </a>
+      <a href="#" class="d-block text-success mb-2">
+        <i class="fab fa-line fz-xl"></i>
+      </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    <%- title %>
+    完成預約
   </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -43,7 +43,61 @@
   </nav>
 
 
-  <%- contents %>
+  
+<main>
+    <section class="pt-9 pt-md-11 pb-13 pb-md-12 pb-lg-14">
+        <div class="container">
+            <h1 class="fs-3 text-center text-success mb-5 mb-md-3">立即預約</h1>
+            <ul class="list-unstyled d-flex justify-content-center mb-7">
+                <li class="border-radius px-4 bg-secondary text-success px-md-2 px-lg-9 py-2">
+                    選擇方案
+                </li>
+                <li class="px-4 px-md-2 px-lg-9 py-2 bg-secondary text-success border-radius mx-3 mx-md-6">
+                    填寫資料
+                </li>
+                <li class="bg-success px-4 px-md-2 px-lg-9 py-2 text-white border-radius">
+                    完成預約
+                </li>
+            </ul>
+            <div class="text-center text-success">
+                <span class="material-icons-outlined fs-1 mb-4">
+                    check_circle
+                </span>
+                <p class="fs-5 mb-7">已完成預約，以下是您的預約資訊:</p>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card">
+                        <div data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"
+                            class="card-header bg-success border-primary text-white px-4 py-3 collapse d-flex align-items-center justify-content-between cursor">
+                            <span>預約資訊</span>
+                            <span class="material-icons-outlined">expand_more</span>
+                        </div>
+                        <div class="card-body px-4 text-success collapse show" id="collapseExample">
+                            <h1 class="d-flex align-items-center fs-6 mb-3">你選擇的是<span
+                                    class="text-primary fs-5 ms-2">首次體驗課程-基礎</span></h1>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">上課預約報到日：2021/07/21</li>
+                                <li class="mb-2">預約人：Joanne Chen</li>
+                                <li class="mb-2">年齡：18 歲</li>
+                                <li class="mb-2">性別：女</li>
+                                <li class="mb-2">電子信箱：example123@gmail.com</li>
+                                <li class="mb-2">手機號碼：0912-345-678</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center text-success">
+                <div class="col-md-6 col-lg-4">
+                    <div class="fs-5 mb-2 text-center">上課注意事項</div>
+                    <p class="mb-7">第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。<br>如欲更改體驗時間請提前通知我們喔！</p>
+                    <a href="index.html" class="btn btn-primary w-100 text-white py-2">返回首頁</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
     <footer class="footer bg-success">
       <div class="border-bottom border-white">
